@@ -1,0 +1,41 @@
+.content-by-meal-page{
+	/* background: url("../images/bg-in.jpg") top center no-repeat; */
+	width: 1200px; margin: 0 auto;
+	}
+.my-location-page{height: 45px;}
+
+.create-bistro-icon{ background: url("../images/icons/create-bistro-icon.png") top left no-repeat; position: relative; z-index: 50; height: 60px;
+padding: 0 0 10px 82px; top: 5px; }		
+
+.content-create-bistro{
+	background-color: #46cfdd;
+	padding: 0px;
+	width: 1200px;
+	margin: 0 auto;
+}
+		.content-create-bistro h2{
+				color: #FFFFFF;
+				font-family: "supermarket";
+				font-size: 30px;
+				line-height: 50px;
+				font-weight: normal;
+				text-align: left;
+				width: 1035px;
+				margin: 0 auto;
+				height: 50px;
+		}
+			
+.bistro-form{
+	width: 1200px;
+	margin: 0 auto -16px auto;
+	background-color: #def8ff;
+	padding-top: 35px;
+}
+.bistro-form-in{
+	width: 875px;
+	margin: 0 auto;
+	padding: 20px 80px 100px 80px;
+	background: #f3fcff url("../images/bg-bistro-form.png") bottom right no-repeat; 
+	
+}
+		

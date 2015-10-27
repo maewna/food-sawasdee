@@ -1,0 +1,138 @@
+a:hover img {
+	filter: Alpha(opacity=60);
+	opacity: 0.6; 
+}
+
+.content-special{
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	width: 1200px;
+	min-height: 200px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.content-box{
+	background-color:#ffffff;
+	width:1170px;
+	/*min-height: 200px;*/
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.title-special{
+	padding-top: 40px;
+	font-family:supermarket;
+	font-size:30px;
+	color:#72b675;
+}
+.promotion{
+	margin-top: 40px;
+	margin-left: 15px;
+	color:#666666;
+	font-family:supermarket;
+	margin-bottom: 20px;
+	font-size: 19px;
+}
+.box-left{
+	float:left;
+	width:100%;
+	margin-right:10px;
+	
+}
+.box-image{
+	border:1px solid;
+	margin-bottom:25px;
+	overflow: hidden;
+}
+.specialTitle{
+	width:85%;
+	position:absolute;
+	z-index:2;
+	margin-left:3%;
+	margin-top:-20px;
+	padding:10px;
+	border-radius:4px;
+	font-family:supermarket;
+	color:#FFFFFF;
+	font-size:18px;
+	text-align:center;
+}
+.specialTitle a{
+	font-family:supermarket;
+	color:#FFFFFF;
+	font-size:18px;
+	text-align:center;
+	text-decoration: none;
+}
+.specialExcerp{
+	padding:8px;
+	font-size:14px;
+	line-height:20px;
+	color:#000000;text-decoration:none;
+}
+.specialExcerp a:link,.specialExcerp a:visited,.specialExcerp a:hover{
+	text-decoration:none;
+	color:#000000;
+}
+.readmore a:link,.readmore a:visited,.readmore a:hover{
+	text-decoration:none;color:#b3b5b7;
+}
+.readmore{
+	height:25px;
+	background-color:#e6e7e8;
+	background-image:url("../images/iconMore.png");
+	background-repeat:no-repeat;
+	background-position:320px 7px;
+	font-family:supermarket;
+	font-size:16px;
+	padding-left:275px;
+	padding-top:7px;
+	color:#b3b5b7;
+}
+
+/******************************* Tips ***********************************/
+
+.content-tips{
+	background: #ffffff url("../images/recipes/h-tips.jpg") top center no-repeat;
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 400px;
+	padding-bottom: 30px;
+}
+.content-tip{
+	background: #ffffff url("../images/recipes/h-tip-detail.jpg") top center no-repeat;
+	width: 1200px;
+	margin: 0 auto;
+	/*padding-top: 370px; margin at navigation div instead*/
+	padding-bottom: 30px;
+}
+
+
+.box-tip{
+	border:2px solid;
+	margin-bottom:25px;
+	width: 954px;
+	padding: 0 40px 40px 40px;
+	margin: 0 auto;
+}
+.tipTitle{
+	width: 45%;
+	z-index: 2;
+	margin: -20px auto 0 auto;
+	padding: 10px;
+	border-radius: 4px;
+	font-family: supermarket;
+	color: #FFFFFF;
+	font-size: 22px;
+	line-height: 24px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.social2{
+	width:30%;
+	height:60px;
+	position:absolute;
+	top:820px;
+	left:1120px;
+}

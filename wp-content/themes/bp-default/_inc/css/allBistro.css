@@ -1,0 +1,109 @@
+
+.box-left{
+	float:left;
+	width:100%;
+	margin-right:10px;
+	
+}
+.box-image{
+	border:2px solid;
+	margin-bottom:25px;
+	
+}
+.specialTitle{
+	width:85%;
+	position:absolute;
+	z-index:2;
+	margin-left:3%;
+	margin-top:-20px;
+	padding:10px;
+	border-radius:4px;
+	font-family:supermarket;
+	color:#FFFFFF;
+	font-size:18px;
+	text-align:center;
+}
+.specialTitle a{
+	font-family:supermarket;
+	color:#FFFFFF;
+	font-size:18px;
+	text-align:center;
+	text-decoration: none;
+}
+.specialExcerp{
+	padding:8px;
+	font-size:14px;
+	line-height:20px;
+	color:#000000;text-decoration:none;
+}
+.specialExcerp a:link,.specialExcerp a:visited,.specialExcerp a:hover{
+	text-decoration:none;
+	color:#000000;
+}
+.readmore a:link,.readmore a:visited,.readmore a:hover{
+	text-decoration:none;color:#b3b5b7;
+}
+.readmore{
+	height:25px;
+	background-color:#e6e7e8;
+	background-image:url("../images/iconMore.png");
+	background-repeat:no-repeat;
+	background-position:320px 7px;
+	font-family:supermarket;
+	font-size:16px;
+	/*padding-left:275px;
+	padding-top:7px;*/
+	color:#b3b5b7;
+}
+.grid li{
+	width:29% !important;
+	padding-left:8px !important;
+}
+.grid li.shown{
+	width:29% !important; 
+}
+/******************************* Tips ***********************************/
+.box_red_one{
+	float:left;
+	display:block;
+	border:1px solid #26abe2 !important;
+	width:290px;
+	margin-bottom: 15px;
+	margin-right:7px !important;
+	margin-left:6px !important;
+
+}
+.box_title{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color:#26abe2 !important;
+	width:260px;
+	height:50px;
+	margin-top: -30px;
+	position: absolute;
+	float:left;
+	margin-left:4px;
+	padding:2px;
+}
+.box_red_one_text{
+	font-family:supermarket;
+	font-size:20px;
+	color:#ffffff;
+	text-align: center;
+	display: block;
+	padding-top: 9px;
+	padding-bottom: 7px;		
+	
+}
+.stars{
+	  margin-left: 70px !important;
+}
+.bg_readmore_search{
+	width:290px !important;
+	height:30px;
+	background-color:#e6e7e8;
+	margin-left:-8px;
+	position:relative;
+	margin-top:12px !important;
+}

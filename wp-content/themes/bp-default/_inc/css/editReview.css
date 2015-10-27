@@ -1,0 +1,141 @@
+.pagetitle,.edit-link{
+	  display:none;
+	}
+	.iconReview{
+	  vertical-align:middle;
+	  margin-left: 10px;
+	  margin-right: 5px;
+	}
+	.content-create-bistro h2 {
+	  color: #92c01f;
+	  font-family: "supermarket";
+	  font-size: 30px;
+	  line-height: 135px;
+	  font-weight: normal;
+	  text-align: left;
+	  width: 1035px;
+	  margin: 0 auto;
+	  height: 50px;
+	}
+	.content-create-bistro {
+	  width: 1200px;
+	  margin: 0 auto;
+	  background: #ffffff url("../images/bgAddReview.png") top 3% right 9% no-repeat;
+	  padding: 0 0 50px 0;
+	  position: relative;
+	}
+	.bistro-form {
+	  width: 1200px;
+	  margin: 0 auto;
+	  padding-top: 35px;
+	}
+	.bistro-form-in {
+	  width: 1000px;
+	  height:1200px;
+	  padding: 45px 0px 75px 35px;
+	  margin: 0 auto;
+	  border: solid #92c01f;
+	  border-width: 0 1px;
+	  border-top: 1px solid #92c01f !important;
+	  border-bottom: 1px solid #92c01f !important;
+	  font-size: 14px; color: #464646;
+	}
+	ul.wpuf-form li .wpuf-fields ul.wpuf-attachment-list li {
+	  display: inline-block;
+	  width: 120px;
+	  margin-right: 5px;
+	  padding: 0;
+	}
+	li.wpuf-el.review_bistroid.col-left {
+	  display: none;
+	}
+	.col-left{
+	   width: 69.94685990338165%;
+	   float:left;
+	   display:inline;
+	   text-align:left;
+	}
+	.col-right{
+	  width:245px;
+	  float:right;
+	  display:inline;
+	  height:700px;
+	  position:relative;
+	  overflow-y:scroll !important;
+	  overflow-x:hidden;
+	}
+	.col-right::-webkit-scrollbar {
+		border-radius: 8px;
+		border: 1px solid white; /* should match background, can't be transparent */
+		background-color: #cef288;
+	}
+	.col-right::-webkit-scrollbar:vertical {
+		width: 8px;
+	}
+
+	.col-right::-webkit-scrollbar:horizontal {
+		height: 100px;
+	}
+
+	.col-right::-webkit-scrollbar-thumb {
+		border-radius: 8px;
+		border: 1px solid white; /* should match background, can't be transparent */
+		background-color:##cef288;
+	}
+
+	.col-right::-webkit-scrollbar-track { 
+		background-color: #cef288; 
+		border-radius: 8px;
+	} 
+	ul.wpuf-form li .wpuf-fields ul.wpuf-attachment-list li .attachment-name img {
+	  text-align: center;
+	  width: 120px;
+	}
+	ul.wpuf-form li .wpuf-fields textarea {
+	  padding-left: 3px;
+	  width: 98%;
+	}
+	.buttonImg, .buttonImg:hover, .buttonImg:focus {
+	  background-image: url('../images/selectImg.png') !important;
+	  background-position: center top;
+	  background-repeat: no-repeat;
+	  width: 230px !important;
+	  height: 150px !important;
+	  cursor: pointer;
+	  color: transparent;
+	  border: 0px;
+	  position: relative;
+	  overflow: hidden;
+	  display:inline;
+	  margin-left: 58px;
+	}
+	ul.wpuf-form .wpuf-submit input[type=submit] {
+	  background-image: url('../images/EditButton.png');
+	  font-size: 0px;
+	  width: 120px;
+	  height: 30px;
+	  border: 0px;
+	  cursor:pointer;
+	}
+	#wpuf-review_image-pickfiles {
+  height: 130px;
+  width: 200px;
+  margin-left:0px !important;
+  }
+  ul.wpuf-form li .wpuf-fields ul.wpuf-attachment-list li .attachment-name img {
+  text-align: center;
+  width: 210px !important;
+}
+ul.wpuf-form li .wpuf-fields ul.wpuf-attachment-list li {
+  display: inline-block;
+  border: 1px solid #eeeeee;
+  padding: 5px;
+  width: 215px;
+  margin-right: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+ul.wpuf-form li .wpuf-fields ul.wpuf-attachment-list {
+  margin-left: 0px !important;
+}

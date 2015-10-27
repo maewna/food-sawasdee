@@ -1,0 +1,94 @@
+.create-bistro-icon{ 
+	background: url("../images/icons/iconAddBistro.png") top left no-repeat; 
+	position: relative; 
+	z-index: 50; 
+	height: 60px;
+	padding: 0 0 10px 98px; 
+	top: 5px; left:30px;
+	display:inline
+	}		
+.content-create-bistro{
+	width: 1200px;
+	margin: 0 auto;
+	background: #ffffff url("../images/bgAddBistro.png") top 40px right 9% no-repeat;
+	padding:0 0 50px 0;
+	position:relative;
+}
+.col-left {
+	width:93%;
+	padding-left:10px !important;
+	float:left;
+	position:relative;
+	display:inline;
+}
+.wpuf-fields textarea {
+	width:84% !important;
+}
+.addr{
+display:inline;
+width:45% !important;
+float:left;
+}
+.google-map{
+width:750px !important;
+height:340px !important;
+}
+.bistro_map{
+color:transparent;
+font-size:0px;
+ 
+}
+.wpuf_bistro_map_200{
+padding-left:35px;
+padding-top:30px;
+padding-bottom:20px;
+padding-right:95px;
+border: 1px dashed #e6e6e6;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+ background-color: transparent;
+}
+#wpuf-bistro_logo-pickfiles,#wpuf-bistro_img-pickfiles,#wpuf-featured_image-pickfiles{
+width:100px !important;
+}
+
+input#wpuf-map-add-bistro_map {
+  width: 350px;
+  vertical-align: top;
+}
+.wpuf-button {
+  background: #8ac440;
+  -webkit-border-radius: 4px; 
+  -moz-border-radius: 4px; 
+  border-radius: 4px; 
+  color: #FFFFFF;
+  width: 120px;
+  height: 26px;
+  letter-spacing: 1px;
+  font-size: 13px;
+margin-left:10px;
+}
+ul.wpuf-form li .wpuf-fields td {
+  width: 345px !important;
+}
+.wpuf-remove-field{
+margin:0 3px !important;
+}
+#wpuf-bistro_hilight{
+margin-bottom:5px;
+}
+ul.wpuf-form li .wpuf-fields ul.wpuf-attachment-list li .attachment-name img {
+  text-align: center;
+  width: 120px;
+}
+ul.wpuf-form li .wpuf-fields ul.wpuf-attachment-list li {
+  width: 122px;
+padding:2px !important;
+}
+ul.wpuf-form li .wpuf-fields ul.wpuf-attachment-list {
+  width: 680px !important;
+}
+ul.wpuf-form .wpuf-submit input[type=submit] {
+  background-image: url('../images/AddBistro.png');
+}

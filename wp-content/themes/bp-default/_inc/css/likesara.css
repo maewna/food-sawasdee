@@ -1,0 +1,965 @@
+
+
+
+	/*div*/
+	#likesara{
+		width: 1200px;
+
+	}
+
+	.trend {
+		width:1200px;
+		height: 780px;
+		margin: 0 auto;
+		background-color: #ffffff;
+		background-image: url(../images/likesara/bg-trendzone.jpg);
+		background-repeat: no-repeat;
+    	background-position: center bottom;
+		}
+
+	.trend-left{
+		width:640px;
+		/*height: 300px;*/
+		float: left;
+		margin-left: 30px;
+
+
+		/*border: 1px solid red;*/
+		/*box-shadow: 0px 0px 0px 1px red inset;*/
+	}
+
+	.trend-right{
+		width:490px;
+		/*height: 40px;*/
+		float: left;
+		margin-left: 10px;
+
+		/*border: 1px solid red;*/
+		/*box-shadow: 0px 0px 0px 1px red inset;*/
+	}
+
+	.trend-right-item{
+		width:490px;
+		height: 200px;
+		margin-bottom: 10px;
+		/*background-image: url("images/bg-right-item.png");*/
+
+		/*border: 1px solid red;*/
+		/*box-shadow: 0px 0px 0px 1px blue inset;*/
+		
+	}
+
+	.trend-right-item-thumb {
+		width: 170px;
+		height: 190px;
+		float: left;
+		box-shadow: 0px 0px 0px 1px #cacaca inset;
+	}
+	
+	.trend-left-item-thumb {
+		width:640px;
+		height: 300px;
+		overflow: hidden;
+	}
+
+	.trend-right-item-content {
+		width:300px;
+		float: left;
+		margin-left:15px;
+		position: relative;
+
+		/*box-shadow: 0px 0px 0px 1px orange inset;*/
+	}
+
+	/*Like section*/
+	.trend-right-item-content .likesara-like-button{
+		  position: absolute;
+		  top: 47px;
+		  right: -105px;
+		  /* width: 90px; */
+	}
+	
+	.trend-left-item-content{
+		position: relative;
+	}
+	.trend-left-item-content h3, .trend-right-item-content h3{
+		margin-bottom: 10px;
+	}
+	
+	.trend-left-item-content .likesara-like-button{
+		  position: absolute;
+		  top: 25px;
+		  right: -103px;
+		  /* width: 90px; */
+	}
+	
+
+
+	/*relative & absolute image position*/
+	#trend-zone-title{
+		position: relative;
+		width: 1140px;
+		height: 60px;
+		margin: 0 30px;
+
+		/*box-shadow: 0px 0px 0px 1px black inset;*/
+	}
+
+	#trend-zone-title img{
+		position: absolute;
+		left: 5px;
+		top: 15px;
+	}
+
+
+	#trend-see-all{
+		position: relative;
+		width:490px;
+		height: 300px;
+
+		/*box-shadow: 0px 0px 0px 1px black inset;*/
+	}
+
+
+	#see-all-button{
+		display: block;
+		position: absolute;
+		right: 25px;
+		top: 55px;
+		width: 120px;
+		height: 112px;
+		background:transparent url(../images/likesara/trend-see-all.png)center top no-repeat;
+	}
+	#see-all-button:hover{
+		background-image: url(../images/likesara/trend-see-all-over.png);
+	}
+
+	#see-all-char{
+		position: absolute;
+		right: 150px;
+		bottom: 50px;
+	}
+
+
+	/*thumbnail*/
+	.trend-right-item-thumb img {
+		margin: 5px;
+		/*padding: 5px;*/
+	}
+	#trend-right-item-thumb-img{
+		width:165px;
+		overflow: hidden;
+	}
+
+	/*typo*/
+	.trend-left h3{
+		color: #7b4d24;
+		border-bottom: dashed 1px #cacaca;
+		/*padding: 5px 100px 10px 0;*/
+		padding: 10px 0;
+		font-family: supermarket;
+		font-size: 24px;
+		font-weight: normal;
+		margin-top:20px;
+		/*padding-bottom:15px;
+		line-height: 130%;
+		/*min-height: 60px;*/
+		text-decoration: none;
+		
+	}
+
+	.trend-right h3{
+		color: #7b4d24;
+		border-bottom: dashed 1px #cacaca;	
+		font-family: supermarket;
+		font-size: 24px;
+		font-weight: normal;
+		/*margin-top:10px;*/
+		padding-right:100px;
+		line-height: 130%;
+		min-height: 70px;
+		text-decoration: none;
+	}
+
+	.trend-left p, .trend-right p{
+		font-family: tahoma;
+		font-size: 14px;
+		margin-top: 10px;
+		padding-right:80px;
+		line-height: 130%;
+	}
+	
+	.trend-right h3 a, .trend-left h3 a {
+		color: #7C4D25;
+		text-decoration: none;
+	}
+	.trend-right h3 a:hover, .trend-left h3 a:hover {
+		color: #b1805f;
+		text-decoration: none;
+	}
+	.trend-right h3 a:visited, .trend-left h3 a:visited {
+		color: #b1805f;
+		text-decoration: none;
+	}
+
+	.trend-right a, .trend-left a, .grid li a.read-more {
+		color: #FF7B0A;
+	}
+	.trend-right a:hover, .trend-left a:hover , .grid li a.read-more:hover {
+		color: #FCAC70;
+	}
+	.trend-right a:visited, .trend-left a:visited , .grid li a.read-more:visited{
+		color: #FCAC70;
+	}
+
+	.grid li a.read-more{display: inline;}
+	
+	
+	
+/*like sara section*/
+	
+	
+	.likesara {
+		width:1200px;
+		min-height: 800px;
+		margin: 0 auto;
+		background-color: #e3f4ff;
+		/*background-image: url("images/bg-trendzone.jpg");*/
+		background-repeat: no-repeat;
+    	background-position: center bottom;
+		}
+
+	#likesara-title {
+		position: relative;
+		width: 1140px;
+		height: 60px;
+		margin: 0 30px;
+
+		/*box-shadow: 0px 0px 0px 1px black inset;*/
+	}
+
+	#likesara-title img{
+		position: absolute;
+		left: 5px;
+		top: 15px;
+		margin-top:-60px;
+	}
+
+	.likesara-left {
+		width:790px;
+		/*height: auto;*/
+		float: left;
+		margin-left: 30px;
+		/*margin-left: 0px;*/
+		/*background-color: red;*/
+	}
+
+	.likesara-right {
+		width:350px;
+		height: 620px;
+		float: left;
+		/*margin-left: 0px;*/
+		background-color: #ffffff;
+	}	
+
+	#likesara-horo{
+		border-bottom: dashed 1px #cacaca;	 
+	}
+	
+	#likesara-members{
+		margin-top: 25px;
+		margin-left: 14px;
+		width: 350px;
+		height: 90px;
+	}
+	
+	
+	
+	
+/*recommended members area by pEarng*/
+.recommend-member-icon{ background: url("../images/icons/recommend-member-icon.png") top left no-repeat; height: 57px; padding-left: 68px; }			
+		
+		
+		.recommend-member h2{ 
+			color: #ff7b0a;
+			font-family: "supermarket";
+			font-size: 30px;
+			line-height: 50px;
+			font-weight: normal;
+			text-align: left; 
+			}
+		.recommend-member .wr-member{ margin-top: 15px; }
+		.recommend-member figure img{ float: left; margin-right: 5px; margin-bottom: 5px; }
+		
+.regis-button{
+			background-color:#f8ac1d;
+			width:200px;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family: "supermarket";
+			font-size:20px;
+			padding:10px 3px;
+			text-decoration:none;
+			margin-right: 3px;
+			margin-top: 10px;
+			text-align: center;
+			border-radius: 4px;
+	}
+.login-button{ 
+			background-color:#86c13e;
+			width:100px;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family: "supermarket";
+			font-size:20px;
+			padding:10px 3px;
+			margin-top: 10px;
+			text-align: center;
+			text-decoration:none;
+			border-radius: 4px;
+	}
+
+	
+	/*END pEarng CSS*/
+
+	
+/*--------------------------------------------------------------
+- Activity Card UI
+---------------------------------------------------------------*/
+#grid li a{ text-decoration: none; }
+
+.box-image{
+	/*border:1px solid #f1f1f1;*/
+	background-color: #ffffff;
+}
+.icon{
+	width:50px;
+	height:50px;
+	position:absolute;
+	margin-left: 180px;
+	margin-top: 5px;
+}
+.icon-video{
+	background: url('../images/likesara/icon-video.png') top left no-repeat;
+	position: absolute;
+	z-index: 99;
+}
+
+
+.likesara-title{
+	padding-top: 20px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.likesara-title h3{
+		color: #7b4d24;
+		border-bottom: dashed 1px #cacaca;
+		padding-bottom: 10px;
+		font-family: supermarket;
+		font-size: 22px;
+		font-weight: normal;
+		line-height: 130%;
+}
+
+.likesara-detail{ 
+	padding: 10px;
+}
+.likesara-detail div{ height: 10px;}
+
+.likesara-detail div label{ 
+	color: #000;
+	font-size: 14px;
+	line-height: 130%;
+}
+.likesara-detail div span{ 
+	color: #ed791f;
+	font-size: 14px;
+	line-height: 130%;
+}
+
+.likesara-detail p {
+		font-family: tahoma;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 130%;
+		}
+
+
+.likesara-date{
+	color: #999999;
+	font-size: 12px;
+	line-height: 130%;
+	padding-left: 20px;
+	background: url('../images/likesara/icon-calendar.png') no-repeat;
+}
+
+.likesara-pageview{
+	color: #999999;
+	font-size: 12px;
+	line-height: 130%;
+	padding-left: 20px;
+	background: url('../images/likesara/icon-pageviews.png') no-repeat;
+}
+
+.thumbimage{
+	position: relative;
+	z-index: 98;
+}
+
+.hovericon{
+	position : absolute;
+    display:none;
+    top:30%; 
+	left:95px;
+    margin:0 auto;
+	
+    z-index:100
+} 
+
+
+.box-image:hover {
+	background: url('../images/likesara/box-image-hover-bg.jpg') #ffffff;
+}
+
+.box-image:hover .hovericon { display:block }
+
+
+
+/* ENd Card UI*/
+
+
+
+
+
+/* Trend All - page*/
+
+.trendall {
+		width:1200px;
+		/*height: 100%;*/
+		margin: 0 auto;
+		background-color: #e3f4ff;
+		/*background-image: url("images/bg-trendzone.jpg");*/
+		background-repeat: no-repeat;
+    	background-position: center bottom;
+		}
+
+	#trendall-title {
+		position: relative;
+		width: 1140px;
+		height: 60px;
+		margin: 0 30px;
+
+		/*box-shadow: 0px 0px 0px 1px black inset;*/
+	}
+
+	#trendall-title img{
+		position: absolute;
+		left: 5px;
+		top: 15px;
+		margin-top:-60px;
+	}
+	
+	#trendall-top{
+		width: 1200px;
+		height: 230px;
+		background: url('../images/likesara/trendall-bg-top.png') no-repeat #ffffff bottom;
+	}
+
+	.trendall-grid {
+		width:1200px;
+		/*height: 100%;*/
+		float: left;
+		padding-left:40px;
+		/*margin-left: 0px;*/
+		/*background-color: red;*/
+		padding-bottom: 20px;
+	}
+	
+	/*GRID UI Trend all*/
+
+	.trendall-title-grid{
+	padding-top: 20px;
+	padding-left:5px;
+	padding-right:5px;
+	
+}
+
+.trendall-title-grid h3{
+		color: #7b4d24;
+		border-bottom: dashed 1px #cacaca;
+		padding-bottom: 10px;
+		font-family: supermarket;
+		font-size: 22px;
+		font-weight: normal;
+		line-height: 130%;
+		text-decoration: none;
+}
+
+.trendall-detail-grid{ 
+	padding: 10px;
+}
+.trendall-detail-grid div{ height: 10px;}
+
+.trendall-detail-grid div label{ 
+	color: #000;
+	font-size: 14px;
+	line-height: 130%;
+}
+.trendall-detail-grid div span{ 
+	color: #ed791f;
+	font-size: 14px;
+	line-height: 130%;
+}
+
+.trendall-detail-grid p {
+		font-family: tahoma;
+		font-size: 14px;
+		margin-top: 10px;
+		line-height: 130%;
+		}
+
+
+.trendall-date-grid {
+	color: #999999;
+	font-size: 12px;
+	line-height: 130%;
+	padding-left: 20px;
+	background: url('../images/likesara/icon-calendar.png') no-repeat;
+}
+
+.hovericon-trendall{
+	position : absolute;
+    display:none;
+    top:30%; 
+	left:155px;
+    margin:0 auto;
+	
+    z-index:100
+}
+.box-image:hover .hovericon-trendall { display:block }
+
+
+
+.clear{clear:both; line-height:0; height:0;}
+
+
+/* Like Sara inpost*/
+
+.likeinpost {
+		width:1200px;
+		margin: 0 auto;
+		background-color: #ffffff;
+		}
+	.likeinpost a{
+		text-decoration: none;
+	}
+
+	#likeinpost-left{
+		width: 720px;
+		float: left;
+		margin-left: 80px;
+		padding-top: 10px;
+		border-top: 1px solid #CACACA;
+		border-left: solid 1px #cacaca;
+		border-right: solid 1px #cacaca;
+		border-radius: 5px;
+	}
+
+	#likeinpost-right{
+		width: 300px;
+		/*background-color: blue;*/
+		float: right;
+		margin-right: 80px;
+	}
+
+	#likeinpost-left-content{
+		width: 700px;
+		margin: 0 10px;
+	}
+	
+	#likeinpost-left-content img{
+		max-width: 100%;
+		height: initial;
+	}
+
+	#likeinpost-left-nav{
+		margin-top: 70px;
+		width: 660px;
+		text-align: center;
+		background: #f5fcff;
+		padding: 10px 30px;
+	}
+	
+	#likeinpost-left-nav a{
+		color: #0da0c9;
+		font-family: supermarket;
+		font-size: 20px;
+	}
+	
+	.likeinpost-title{
+		background: url('../images/likesara/showdate-icon.png') no-repeat top left;
+		/* height: 65px;
+		padding-bottom: 10px; */
+	
+	}
+	
+	.likeinpost-title-postname h3{
+		color: #7b4d24;
+		
+		/*padding-top: 10px;
+		padding-bottom: 10px;*/
+		margin-left: 10px;
+		font-family: supermarket;
+		font-size: 26px;
+		font-weight: normal;
+		line-height: 130%;
+		float: left;
+		width: 540px;
+	}
+	
+	.likeinpost-title-postdate{
+		float:left;
+		width: 60px;
+		
+	}
+	
+	.likeinpost-left-social{
+		width: 660px;
+		/*border-top: dashed 1px #cacaca;*/
+		border-bottom: dashed 1px #cacaca;
+		padding: 20px;
+		margin-top:30px;
+	}
+	
+	#likeinpost-allimages{
+		width: 720px;
+		margin-left: -10px;
+		border-top: 1px #cacaca solid;
+		border-bottom: 1px #cacaca solid;
+		background: url('../images/likesara/box-image-hover-bg.jpg') #ffffff;
+		
+	}
+	#likeinpost-allimages ul{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 30px;
+	}
+	
+	#likeinpost-allimages img{
+		margin-left: 5px;
+	}
+
+	
+
+	
+	#postdate{
+		display:block;
+		text-align:center;
+		padding-top:24px;
+		
+	}
+	span#postdate {
+		font-size: 22px;
+		color: #754b23;
+		font-weight: bold;
+	}
+	
+	span#postmonth{
+		font-size: 10px;
+		color: #ffffff;
+	}
+	
+	#postmonth{
+		display:block;
+		text-align:center;
+		padding-top:5px;
+		font-size: 10px;
+	}
+	
+	#likenavigation{
+		padding-left: 70px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+	#likeinpost-right-social{
+		width:300px;
+		height: 100px;
+		background: url('../images/likesara/likeinpost-sidebar-social.png') no-repeat;
+		margin-top: -10px;
+	}
+	
+	#likeinpost-right-moretips{
+		margin-top: 20px;
+		width:290px;
+		background: url('../images/likesara/likeinpost-sidebar-headline.png') no-repeat;
+	}
+	
+	#likeinpost-right-moretips h3{
+		font-family: supermarket;
+		font-size: 24px;
+		color: #754C24;
+		padding-left: 50px;
+		padding-top: 10px;
+		margin-bottom: 20px;
+		font-weight: normal;
+	}
+	
+	#likeinpost-right-moretips h2{
+		font-family: supermarket;
+		font-size: 22px;
+		color: #333333;
+		padding-top:10px;
+		padding-bottom:10px;
+		font-weight: normal;
+	}
+	#likeinpost-right-moretips a{
+		text-decoration: none;
+		font-weight: normal;
+		color: #333333;
+	}
+	#likeinpost-right-moretips a:hover {
+		text-decoration: none;
+		font-weight: normal;
+		color: #d9d9d9;
+	}
+	
+	#likeinpost-right-datebox{
+		height: 18px;
+		background: url("../images/likesara/icon-calendar-likeinpost.png") top left no-repeat;
+		padding-left: 25px;
+		border-bottom: 2px #d9d9d9 solid;
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+		
+	}
+	
+	#likeinpost-right-likenumber{
+		float: right;
+		color: #F99B00;
+		font-size: 14px;
+		font-family: tahoma;
+	}
+	
+	#likeinpost-right-date{
+		float: left;
+		color: #754C24;
+		font-size: 13px;
+		font-family: tahoma;
+	}
+
+
+/*register box in Like Sara (in post)*/
+	.recommend-member-icon-likeinpost{ background: url("../images/members-title-likeinpost.png") top left no-repeat;}			
+		
+		
+		.recommend-member-likeinpost h2{ 
+			color: #ff7b0a;
+			font-family: "supermarket";
+			font-size: 24px;
+			line-height: 50px;
+			font-weight: normal;
+			text-align: left; 
+			}
+		.recommend-member-likeinpost .wr-member{ margin-top: 15px; }
+		.recommend-member-likeinpost figure img{ float: left; margin-right: 5px; margin-bottom: 5px; }
+		
+.regis-button-likeinpost{
+			background-color:#7e9f3d;
+			width:140px;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family: "supermarket";
+			font-size:16px;
+			padding:10px 3px;
+			text-decoration:none;
+			text-align: center;
+			border-radius: 4px;
+	}
+.login-button-likeinpost{ 
+			background-color:#ccbb54;
+			width:140px;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family: "supermarket";
+			font-size:16px;
+			padding:10px 3px;
+			text-align: center;
+			text-decoration:none;
+			border-radius: 4px;
+	}
+	
+	#likesara-members-likeinpost{
+		width: 300px;
+	}
+	
+
+/*trend in post*/
+
+
+		
+
+	#trendinpost{
+		width: 1200px;
+		margin: 0 auto;
+		background: url("../images/likesara/bg-trendinpost.png") top center no-repeat;
+		/* margin-top: 20px;  */
+		margin-bottom: 20px;
+	}
+	
+	#trendinpost-content{
+		width: 1000px;
+		margin: 0 auto;
+		background: #fff;
+		padding: 20px;
+		border-top: 1px solid #cacaca;
+		border-left: 1px solid #cacaca;
+		border-right: 1px solid #cacaca;
+	}
+	
+	#trendinpost-content img{
+		max-width: 100%;
+		height: initial;
+	}
+	
+	#trendinpost-nav{
+		width: 1040px;
+		text-align: center;
+		background: #f5fcff;
+		padding: 10px 0;
+		margin-left: -20px;
+		margin-bottom: -20px;
+		margin-top:60px;
+	}
+	
+	.trendinpost-title{
+		background: url('../images/likesara/showdate-icon.png') no-repeat top left;
+		/*height: 65px;*/
+		padding-bottom: 10px;
+		width: 1000px;
+	
+	}
+	
+	.trendinpost-title-postname h3{
+		color: #7b4d24;
+		/*border-bottom: dashed 1px #cacaca;
+		padding-top: 10px;
+		padding-bottom: 10px;*/
+		margin-left: 10px;
+		font-family: supermarket;
+		font-size: 26px;
+		font-weight: normal;
+		line-height: 130%;
+		float: left;
+		width: 835px;
+	}
+	
+	/* 26/05/2015 planil moved navigation style to dufault.css (using same class in all sigle pages)
+	#trendnavigation{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	*/
+	.trendinpost-social{
+		padding: 20px;
+	}
+	
+	
+	#trendinpost-related{
+		width: 1000px;
+		border-top:  dashed 1px #cacaca;
+		border-bottom: dashed 1px #cacaca;
+	}
+	
+	
+	.trendrelated-item{
+		width: 310px;
+		float: left;
+		padding: 10px 7px 10px 15px;
+	}
+	
+	.trendrelated-item:hover{
+		background: url('../images/likesara/box-image-hover-bg.jpg') #ffffff;
+	}
+	
+	#trendrelated-item-thumb{
+		width: 75px;
+		height: 75px;
+		float: left;
+		
+	}
+	#trendrelated-item-title{
+		margin-left: 90px;
+	}
+	
+	#trendinpost-related-head{
+		height: 55px;
+		background: url('../images/likesara/trendrelated-icon.png') #ffffff top left no-repeat;	
+		margin: 20px 0 10px 20px;
+		padding-left: 50px;
+	}
+	
+	#trendinpost-related-head h2{
+		font-family: supermarket;
+		color: #F48335;
+		font-size: 24px;
+		font-weight: normal;
+		text-decoration: none;
+		padding: 15px;
+	}
+	
+	#trendrelated-item-title h2{
+		font-family: supermarket;
+		font-size: 18px;
+		color: #333333;
+		font-weight: normal;
+		text-decoration: none;
+		line-height: 120%;
+	}
+	
+
+	#trendrelated-item-title p{
+		margin-top:5px;
+		font-size: 11px;
+		color: #666666;
+		font-weight: normal;
+		text-decoration: none;
+		line-height: 130%;
+	}
+	
+	#trendrelated-item-title a{
+		text-decoration: none;
+		color: #F48335;
+	}
+	#trendrelated-item-title a:hover{
+		
+	}
+	
+	#trendinpost-seealltext a{
+		float: right;
+		font-size: 12px;
+		color: #888888;
+		text-decoration: underline;
+		margin-bottom:10px;
+	}
+	
+	/*
+	#likenavigation,#trendnavigation,#likenavigation a ,#trendnavigation a{
+		font-size: 12px;
+		color: #666666;
+		text-decoration: none;
+	}
+	
+	#likenavigation a:hover ,#trendnavigation a:hover {
+		color: #949494;
+	}
+	
+	#likenavigation{
+		margin-left:10px;
+	}
+	*/

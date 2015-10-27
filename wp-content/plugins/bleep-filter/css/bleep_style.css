@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.bleep_filter_strikeout{
+	text-decoration: line-through;	
+}
+.bleep_filter_blackout_erase{
+	background-color: black;
+	color: black;	
+	letter-spacing: 0.3em;
+}
+
+
+.bleep_filter_blackout{
+	background-color: black;
+	color: black;	
+}
+
+
+.bleep_filter_blackout:hover{
+	color: white;	
+}
+
+.bleep_filter_blackout_black{
+	background-color: black;
+	color: black;
+	letter-spacing: 0.3em;	
+}
+
+.bleep_filter_mtop{
+	padding-top: 15px;	
+}
+
+.bleep_filter_mtop_sm{
+	padding-top: 15px;	
+}

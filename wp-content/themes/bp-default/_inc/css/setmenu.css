@@ -1,0 +1,327 @@
+.set-icon{ background: url("../images/recipes/set-icon.png") top left no-repeat; position: relative; z-index: 50; height: 60px;
+padding: 0 0 28px 82px; top: 5px; }		
+
+.top-set{ background: url("../images/recipes/set-bgtop.png") top left no-repeat; width: 1200px; height: 172px; }
+.content-set{
+	background-color: #f4ba30;
+	padding: 0px;
+	width: 1200px;
+	margin: 0 auto;
+}
+		.content-set h2{
+				color: #FFFFFF;
+				font-family: "supermarket";
+				font-size: 30px;
+				line-height: 50px;
+				font-weight: normal;
+				text-align: left;
+				width: 1035px;
+				margin: 0 auto;
+				height: 50px;
+		}
+			
+.wr-set{
+	width: 1200px;
+	margin: 0 auto -16px auto;
+	background: #ffffff;
+	padding: 10px 0 100px 0;
+}
+
+.content-set .col-left{ width: 250px; float: left; }
+.content-set .col-right{ width: 890px; float: left; margin-left: 40px; }
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu ul li ul li{
+display:list-item;list-style-type:square;list-style-position:inside 
+}
+#cssmenu ul li ul li ul li{
+	list-style:none;
+}
+#cssmenu {
+  width: 250px;
+  color: #414141;
+  border: 1px solid #f6aa1c;
+}
+#cssmenu ul ul {
+  display: none;
+}
+.align-right {
+  float: right;
+}
+
+
+.hmenu{
+  background-color: #f6aa1c; padding: 15px 20px 10px 20px;
+  color: #FFF; font-size: 20px; line-height: 20px; font-family: "supermarket"; text-align: center;
+}
+#cssmenu > ul > li > a {
+  padding: 10px 20px;
+  border-top: 1px solid #fff;
+  cursor: pointer;
+  z-index: 2;
+  text-decoration: none;
+  color: #956101;
+  font-size: 16px;
+  line-height: 26px;
+  background: #dcdddf;
+  font-family: "supermarket";
+}
+
+#cssmenu > ul > li > a span{
+	color: #956101;
+    font-family: "supermarket";
+    font-size: 16px;
+    line-height: 26px;	
+}
+#cssmenu > ul > li > a:hover,
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li.open > a {
+  background: #dcdddf;
+  font-family: "supermarket";
+}
+
+#cssmenu > ul > li > a:hover span,
+#cssmenu > ul > li.active > a span,
+#cssmenu > ul > li.open > a span{
+  color: #956101;
+  font-family: "supermarket";
+  font-size: 16px; line-height: 26px; 
+}
+
+#cssmenu > ul > li.open > a, #cssmenu > ul > li > a:hover{ background-color: #f6c05b; }
+
+#cssmenu > ul > li.open > a {
+  border-bottom: 1px solid #fff;
+}
+#cssmenu > ul > li:last-child > a,
+#cssmenu > ul > li.last > a {
+  border-bottom: 1px solid #f6aa1c;
+}
+
+li.open a .holder, li a:hover .holder {
+	background: #b3b3b3;
+    text-decoration:none;
+    border-radius: 50%;
+    display: block;
+    height: 20px;
+    width: 17px;
+    padding-left: 3px;
+	float: right;	
+	}
+	
+li.open a .holder::after, li a:hover .holder::after {
+	content:"\25b6"; 
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px; 
+    text-align: center;
+}
+
+.holder {
+  	background: #b3b3b3;
+    text-decoration:none;
+    border-radius: 50%;
+    display: block;
+    height: 20px;
+    width: 17px;
+    padding-left: 3px;
+	float: right;	
+}
+.holder::after,
+.holder::before {
+
+}
+.holder::after {
+ 	content:"\25b6"; 
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px; 
+    text-align: center;
+}
+
+
+
+#cssmenu ul ul li.has-sub a .holder{ width: 20px; padding-left: 0px; background-color: #fff; }
+#cssmenu ul ul li.has-sub a .holder::after {
+    content:"\25b6"; 
+    display: block;
+    color: #b3b3b3;
+    font-weight: bold;
+    font-size: 12px; 
+    text-align: center;
+}
+#cssmenu ul ul li.active a .holder,
+#cssmenu ul ul li.open a .holder,
+#cssmenu ul ul li a:hover .holder::after, #cssmenu ul ul li.open a .holder::after {
+ 	content:"\25BC"; 
+    display: block;
+    color: #f3ad28;
+    font-weight: bold;
+    font-size: 12px; 
+    text-align: center;
+	
+}
+
+
+
+#cssmenu > ul > li > a:hover > span::after,
+#cssmenu > ul > li.active > a > span::after,
+#cssmenu > ul > li.open > a > span::after {
+  border-color: #eeeeee;
+}
+.holder::before {
+  top: 18px;
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-top-color: inherit;
+  border-left-color: inherit;
+}
+#cssmenu ul ul li a {
+  cursor: pointer;
+  padding: 10px 20px;
+  z-index: 1;
+  text-decoration: none;
+  font-size: 16px; line-height: 20px; 
+  color: #333333;
+  background: #fff;
+  font-family: "supermarket";
+}
+
+#cssmenu ul ul li a span{ font-family: "supermarket"; font-size: 16px; line-height: 20px; }
+
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li.open > a,
+#cssmenu ul ul li.active > a {
+  font-family: "supermarket";
+}
+#cssmenu ul ul li:hover > a span,
+#cssmenu ul ul li.open > a span,
+#cssmenu ul ul li.active > a span{
+  color: #f2a91f;
+  font-family: "supermarket";
+}
+#cssmenu ul ul li:first-child > a {
+  box-shadow: none;
+}
+#cssmenu ul ul ul li:first-child > a {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+#cssmenu ul ul ul li a {
+  padding-left: 30px;
+}
+#cssmenu > ul > li > ul > li:last-child > a,
+#cssmenu > ul > li > ul > li.last > a {
+  border-bottom: 0;
+}
+#cssmenu > ul > li > ul > li.open:last-child > a,
+#cssmenu > ul > li > ul > li.last.open > a {
+  
+}
+#cssmenu > ul > li > ul > li.open:last-child > ul > li:last-child > a {
+  border-bottom: 0;
+}
+
+
+
+
+
+li.open a .holder, li a:hover .holder {
+	background: #f3ad28;
+	width: 20px; padding-left: 0px;
+	}
+	
+li.open a .holder::after, li a:hover .holder::after {
+ 	content:"\25BC"; 
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px; 
+    text-align: center;
+}
+
+
+
+
+
+#cssmenu ul ul ul li.active a{ color: #cd9e45; }
+
+
+
+
+
+
+
+
+
+
+.h-setmenu{ margin-bottom: 40px; width: 880px; }
+.h-setmenu figure{ float: left; margin-right: 20px; width: 180px; }
+.h-setmenu h2{ float: left; font-size: 20px; font-family: "supermarket"; color: #f6aa1c;  width: 680px; }
+.h-setmenu .description{ float: left; font-size: 14px; color: #333;  width: 680px; }
+
+.hsingle-setmenu{ margin-bottom: 40px; width: 880px; }
+.hsingle-setmenu h2{ font-size: 20px; font-family: "supermarket"; color: #f6aa1c;  width: 880px; text-align: center; }
+.hsingle-setmenu .description{ font-size: 14px; color: #333;  width: 880px; text-align: center; }
+
+.box-setmenu{ position: relative; width: 240px; height: 240px; float: left; list-style: none; margin: 20px; border: 1px solid #000; }
+.tagname{ position: absolute; top: 75px; height: 85px; width: 180px;  padding: 5px 30px; background-color: rgba(255, 255, 255, 0.7); display: table; }
+.tagname span{ text-align: center; line-height: 22px; vertical-align: middle; display: table-cell; font-size: 18px; font-family: "supermarket"; color: #5b5a59; }
+
+.thumb-tagname{ float: left; width: 120px; height: 120px; display: table; }
+.thumb-tagname span{ line-height: 22px; vertical-align: middle; font-size: 18px; font-family: "supermarket"; color: #5b5a59; display: table-cell; text-align: center; }
+.thumb-setmenu{ float: left; width: 120px; height: 120px; }
+
+.link-setmenu{ text-decoration: none; }
+.link-setmenu .z-setmenu{ display: none; }
+.link-setmenu:hover .z-setmenu{ background-color: rgba(255, 255, 255, 0.7); top: 0px; position: absolute; height: 140px; width: 140px; padding-top: 100px; padding-left: 100px; display: block; }
+
+
+
+
+
+.show-set{
+	background: url("../images/recipes/bg-set1.png") top center no-repeat;
+	width: 906px; margin: 0 auto;
+}
+.boxset-maincourse{ width: 350px; float: left; height: 600px; }
+.boxset-dessert{ width: 279px; float: left; height: 600px; }
+.boxset-drink{ width: 277px; float: left; height: 600px; }
+.boxset-dessert p, .boxset-drink p{ margin-top: 20px; height: 91px; text-align: center; color: #FFF; font-family: "supermarket"; font-size: 20px;  }
+.boxset-maincourse p{ margin-top: 20px; height: 63px; text-align: center; color: #FFF; font-family: "supermarket"; font-size: 20px;  }
+.show-set h3.txt-wthbg{ position: absolute; bottom: 0px; color: #FFF; text-align: center; font-family: "supermarket"; font-size: 20px; line-height: 35px; }
+	.set-dessert{ width: 269px; padding: 48px 0 10px 10px; position: relative; height: 296px; overflow: hidden;}
+		.set-dessert h3{ width: 269px; height: 35px; background-color: #e95a28;}
+		.h-dessert{ width: 289px;  text-align: center;  padding: 0px;}
+		.show-set h3.txt-dessert{ color: #e95a28; text-align: center; font-family: "supermarket"; font-size: 20px; line-height: 24px; }
+		.show-set p.ntxt-dessert{ color: #414141; text-align: center; font-size: 14px; line-height: 20px; }
+	.set-maincourse{ width: 328px; padding: 19px 12px 0 12px; position: relative; height: 363px;}
+		.set-maincourse h3{ width: 328px; height: 35px; background-color: #f3a840;}
+		.show-set h3.txt-maincourse{ color: #f3a840; text-align: center; font-family: "supermarket"; font-size: 20px; line-height: 24px; }
+		.show-set p.ntxt-maincourse{ color: #414141; text-align: center; font-size: 14px; line-height: 20px; }
+	.set-drink{ width: 267px; padding: 48px 10px 10px 0; position: relative; height: 297px;  overflow: hidden;}
+		.set-drink h3{ width: 267px; height: 35px; background-color: #84bd3e;}
+		.h-drink{ width: 267px;  text-align: center;}
+		.show-set h3.txt-drink{ color: #84bd3e; text-align: center; font-family: "supermarket"; font-size: 20px; line-height: 24px; }
+		.show-set p.ntxt-drink{ color: #414141; text-align: center; font-size: 14px; line-height: 20px; }
+		
+		.total-cal{ border-top: 1px solid #f3a840; border-bottom: 1px solid #f3a840; padding: 30px 0; width: 890px; text-align: center; }
+		.total-cal h4{ color: #f3a840; text-align: center; font-family: "supermarket"; font-size: 20px; line-height: 24px; }
+		.total-cal p{ color: #414141; text-align: center; font-size: 14px; line-height: 18px; }
+.icon-add-l{ background: url("../images/recipes/add-icon.png") top left no-repeat; top: 150px; left: -30px; position: absolute; width: 67px; height: 67px; z-index: 10; }
+.icon-add-r{ background: url("../images/recipes/add-icon.png") top left no-repeat; top: 150px; right: -30px; position: absolute; width: 67px; height: 67px; z-index: 10; }

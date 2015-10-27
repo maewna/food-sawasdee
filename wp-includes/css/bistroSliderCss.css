@@ -1,0 +1,241 @@
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+.bistroPage{
+	width:1200px;
+	height:100%;
+	position:relative;
+}
+.bistroContent{
+	width:86.25%; /* 1035/1200 */
+	background-color:white;
+	margin:0 auto;
+	height:759px;
+}
+.bistroTitle{
+	height:8.563%; /* 65/759 */
+	font-size:30px;
+	width:100%;
+	position:relative;
+	bottom:0;
+}
+.bistroDetail{
+	height:4.743%; /*35/759 */
+	width:100%;
+}
+.spanQuote{
+	font-size:35px;
+	font-family:tahoma;
+	color:#d1d1d3;
+	vertical-align:text-bottom;
+	position:relative;
+	top:30.769%; /* 20/65 */
+}
+.spanBistroTitle{
+	font-size:35px;
+	font-family:supermarket;
+	color:#3e9c44;
+	vertical-align:text-bottom;
+	position:relative;
+	top:30.769%; /* 20/65 */
+}
+.bistroLeft{
+	width: 71.497%; /*740/1035*/
+	height:100%; /* 759/759 */
+	display:inline;
+	float:left;
+	position:relative;
+}
+.bistroRight{
+	width:28.502%; /*295/1035*/
+	height:100%; /* 759/759 */
+	display:inline;
+	float:left;
+	position:relative;
+}
+
+/* -------------- Left section (740/759)----------- */
+
+.bistroSlide{
+	width: 100%; /*740/740*/
+	height:52.700%; /* 400/759*/
+	background-color:black;
+}
+
+.bistroButtonZone{ 
+	width: 64.189%; /* 475/740 */
+	height: 9.881%; /* 75/759*/
+	display:inline;
+	float:left;
+	padding-top:5px;
+}
+		.addReviewButton ,.favButton {
+			background-color:#47cfdd;
+			-moz-border-radius:5px;
+			-webkit-border-radius:5px;
+			border-radius:5px;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family:arial;
+			font-size:14px;
+			padding:16px 45px;
+			text-decoration:none;
+			text-shadow:0px 1px 0px #2f6627;
+		}
+		.addReviewButton:hover ,.favButton:hover{
+			background-color:#47cfdd;
+		}
+		.addReviewButton:active ,.favButton:active {
+			position:relative;
+			top:1px;
+		}
+		
+
+		.favButton {
+			padding:16px 76px;
+		}
+
+.bistroSocialZone{ 
+	width: 35.810%; /* 265/740 */
+	height: 9.881%; /* 75/759*/
+	display:inline;
+	float:left;
+	margin-top:-12px;
+}
+.bistroSubDetail1{
+	width: 64.189%;/*475/740*/
+	height: 37.549%;/* 285/759*/
+	display:inline;
+	float:left;
+	
+}
+	.colLeft{
+		width: 31.157%; /* 148/475*/
+		display:inline;
+		float:left;
+		clear:both;
+	}
+		.blueText{
+			font-size:14px;
+			color:#13b3cd;
+			line-height:18px;
+		}
+		.defaultText{
+			font-size:14px;
+			color:black;
+			line-height:18px;
+		}
+	.colRight{
+		width: 68.842%; /* 327/475*/
+		float:left;
+		line-height:18px;
+	}
+.bistroSubDetail2{
+	width: 35.810%;/*265/740*/
+	height: 37.549%;/* 285/759*/
+	display:inline;
+	float:left;
+}
+/* -------------- End Left section ----------- */
+
+/* -------------- Right section (295/759)------------- */
+
+.bistroRating{
+	width:100%; /*295/295*/
+	height:16.469038208168644%; /* 125 / 759 */
+	background-color:yellow;
+}
+.bistroMeal{
+	width:93.22033898305084%; /* 275 / 295 */
+	height:27.009222661396574%; /* 205 / 759 */
+	margin-left:20px;
+	background-color:#e1f9ff;
+	border-radius: 8px;
+}
+.bistroMap{
+	padding-left:6.779661016949152%; /* 20 / 295 */
+	width:93.22033898305084%; /* 275 / 295 */
+	height:44.79578392621871%; /* 340 / 759 */
+}
+	.iconMap{
+			background: url("../images/iconMap.png") top left no-repeat;
+			position: relative;
+			z-index: 50;
+			height: 55px;
+			padding: 15px 0 2px 55px;
+			top: 45px;
+			color: #92c01f;
+				font-family: "supermarket";
+				font-size: 30px;
+				line-height: 15px;
+				font-weight: normal;
+				text-align: left;
+	}
+/* -------------- End Right section ----------- */
+
+
+
+
+/* ----------------- Review Section ---------------------*/
+.reviewSection{
+	width:86.25%; /* 1035/1200 */
+	background-color:white;
+	margin:0 auto;
+}
+
+.reviewLeft{
+	width: 71.497%; /*740/1035*/
+	display:inline;
+	float:left;
+	position:relative;
+}
+.reviewRight{
+	width:28.502%; /*295/1035*/
+	display:inline;
+	float:left;
+	position:relative;
+}
+/*-------------------- Review Left section ---------------------------------*/
+.reviewButtonZone{ 
+	width: 100%; /* 740/740 */
+	display:inline;
+	float:left;
+}
+	
+	.reviewButton {
+		padding-right:20px;
+		background-color:#47cfdd;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		border-radius:3px;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:arial;
+		font-size:17px;
+		padding:21px 91px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #2f6627;
+	}
+	.reviewButton:hover {
+		background-color:#47cfdd;
+	}
+	.reviewButton:active {
+		position:relative;
+		top:1px;
+	}
+
+.reviewContent{
+	line-height:18px;
+	position:relative;
+	display:inline;
+}
+
+/*--------------------End Review Left section ---------------------------------*/
+
+/*-------------------- Review Right section ---------------------------------*/
+/*--------------------End  Review Right section ---------------------------------*/
+	

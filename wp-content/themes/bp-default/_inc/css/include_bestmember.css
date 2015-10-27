@@ -1,0 +1,92 @@
+.iconBest{
+	text-align:center;
+	width:25%;
+	float:left;
+}
+
+.bestTitle{
+	width:75%;
+	float:left;
+	line-height:35px;
+	font-family:supermarket;
+	font-size:24px;
+	color:#009cc8;
+}
+
+.bestSubTitle{
+	line-height:24px;
+	font-family:supermarket;
+	font-size:16px;
+	color:#aaabac;
+}
+
+.rankMember{
+	width:100%;
+	position:relative;
+	height:100%;
+	float:left;
+}
+.shopper{
+	width:32%;
+	float:left;
+	margin-top:58px;
+}
+.graph {
+	width: 100%;
+	height: 275px;
+	margin-top:5px;
+}
+.bar {
+	width: 11%;
+	margin-left:5px;
+	display: inline-block;
+	position: relative;
+	vertical-align: baseline;
+	font-family:tahoma;
+	font-size:12px;
+	text-align:center;
+}
+#registerBtn {
+	letter-spacing:1px;
+	margin-top:5px;
+	background-color:#7e9f3e;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:supermarket;
+	font-size:20px;
+	padding:13px 40px;
+	text-decoration:none;
+}
+#registerBtn:hover {
+	background-color:#7e9f3e;
+}
+#registerBtn:active {
+	position:relative;
+	top:1px;
+}
+#loginBtn {
+	margin-left:10px;
+	margin-top:5px;
+	background-color:#ccbc55;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:supermarket;
+	font-size:20px;
+	padding:13px 27px;
+	text-decoration:none;
+}
+#loginBtn:hover {
+	background-color:#ccbc55;
+}
+#loginBtn:active {
+	position:relative;
+	top:1px;
+}

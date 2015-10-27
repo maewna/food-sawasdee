@@ -1,0 +1,312 @@
+
+.content-section-1{
+		background-color: #ffffff; 
+		padding: 0px 0 0 0;
+		width: 1200px; margin: 0 auto;
+	}
+		.content-section-1 h2{
+				color: #3e9a46;
+				font-family: "supermarket";
+				font-size: 30px;
+				line-height: 50px;
+				font-weight: normal;
+				float:left
+			}
+		
+			
+		.review-by-user{ 
+				float: left; 
+				background: #FFF url("../images/bg-sec1.png") bottom left no-repeat; 
+				width: 775px;/*805px*/
+				padding: 40px 30px 85px 28px;
+				}
+			.review-by-user ul{ list-style: none; }
+				.review-by-user ul li article{ height: 240px; margin-bottom: 20px; }
+					.review-by-user ul li article figure{ float: left; margin-right: 25px; }
+					.review-by-user ul li article h3{ font-size: 25px; line-height: 25px; font-family: "supermarket"; color: #7c4d25; margin-bottom: 25px;}
+						.review-by-user ul li article h3 a{ text-decoration: none; font-size: 25px; line-height: 25px; font-family: "supermarket"; color: #7c4d25; }
+						.review-by-user ul li article p{ color: #666; font-size: 14px; line-height: 20px; text-align: justify; }
+						.review-by-user ul li article p a.read-more{ color: #ffb100; font-size: 14px; line-height: 20px; text-decoration: none; }
+		
+		
+		.review-by-admin{ 
+				float: right; 
+				background-color: #FFF; 
+				width: 320px;/*350px*/
+				padding: 40px 20px 0 15px;
+				}
+			.review-by-admin ul{ list-style: none; }
+				.review-by-admin ul li article{ height: 580px;/*495+85*/ margin-bottom: 25px; }
+					.review-by-admin ul li article figure{ margin-bottom: 15px; }
+					.review-by-admin ul li article h3{ font-size: 25px; line-height: 25px; font-family: "supermarket"; color: #7c4d25; margin-bottom: 15px;}
+						.review-by-admin ul li article h3 a{ text-decoration: none; font-size: 25px; line-height: 25px; font-family: "supermarket"; color: #7c4d25; }
+						.review-by-admin ul li article p{ color: #666; font-size: 14px; line-height: 20px; text-align: justify; }
+						.review-by-admin ul li article p a.read-more{ color: #ffb100; font-size: 14px; line-height: 20px; text-decoration: none; }
+						
+						
+		.content-section-1 .box-l{ float: left;  width: 610px;/*610px*/ /*height: 962px;*/}
+		.content-section-1 .box-r{ float: right;  width: 560px;/*560px*/ /*height: 962px;*/}
+		
+		.bg-bag-image{
+			background-image:url('../images/bg-sec2.png'); width: 221px;
+			height: 185px;
+			position: absolute; margin-top: -207px;
+			margin-left: 300px;
+			}
+		
+		.recipe-by-celeb{
+			background-color: #FFF;
+			width: 580px;/*610px*/
+			padding: 40px 15px 10px 30px;
+			}
+			.recipe-by-celeb ul{ list-style: none; }
+				.recipe-by-celeb ul li article{ /*height: 580px;*//*495+85*/ margin-bottom: 15px; }
+					.recipe-by-celeb ul li article figure{ margin-bottom: 15px; }
+					.recipe-by-celeb ul li article h3{ font-size: 25px; line-height: 25px; font-family: "supermarket"; color: #7c4d25; margin-bottom: 15px;}
+						.recipe-by-celeb ul li article h3 a{ text-decoration: none; font-size: 25px; line-height: 25px; font-family: "supermarket"; color: #7c4d25; }
+						.recipe-by-celeb ul li article p{ color: #666; font-size: 14px; line-height: 20px; text-align: justify; height: 57px;}
+						.recipe-by-celeb ul li article p a.read-more{ color: #ffb100; font-size: 14px; line-height: 20px; text-decoration: none; }
+						
+						
+		.recipe-by-user{
+			width: 550px;/*560px*/ 
+			height: 706px;
+			padding: 0px 30px 112px 0;
+			background: #FFF url("../images/bg-sec3.png") bottom left no-repeat;
+			float:left;
+			margin-top: -25px;
+			}
+			.recipe-by-user ul{ list-style: none; }
+					.recipe-by-user ul li article{ /*height: 580px;*//*495+85*/ margin-bottom: 15px; }
+						.recipe-by-user ul li article figure{ margin-bottom: 15px; margin-right: 15px; float: left; }
+						.recipe-by-user ul li article h3{ font-size: 25px; line-height: 25px; font-family: "supermarket"; color: #7c4d25; margin-bottom: 15px;}
+							.recipe-by-user ul li article h3 a{ text-decoration: none; font-size: 25px; line-height: 25px; font-family: "supermarket"; color: #7c4d25; }
+							.recipe-by-user ul li article p{ color: #666; font-size: 14px; line-height: 20px; text-align: justify; }
+							.recipe-by-user ul li article p a.read-more{ color: #ffb100; font-size: 14px; line-height: 20px; text-decoration: none; }
+							
+		
+		
+		.recipe-info{
+			list-style: none;
+			margin-bottom: 30px;
+			}
+		.recipe-info li{
+			color: #7c4d25;
+			font-family: "supermarket";
+			font-size: 18px;
+			line-height: 18px;
+			height: 10px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			}
+				.recipe-info li label{ width: 125px; height: 24px; line-height: 24px; vertical-align: middle; display: block; padding-left: 35px; float: left; font-family: supermarket;font-size: 18px; }
+					.recipe-info li label.recipe-level{ background: url("../images/level-icon.png") left center no-repeat; }
+					.recipe-info li label.recipe-ingredient{ background: url("../images/ingredient-icon.png") left center no-repeat; }
+					.recipe-info li label.recipe-meal{ background: url("../images/meal-icon.png") left center no-repeat; }
+				.recipe-info li span{ display: block; width: 140px; float: left; height: 24px; line-height: 24px; font-family: supermarket;font-size: 18px; }
+		
+		.recipe-author figure{
+			float: left;
+			margin-right: 15px;
+			}
+		.recipe-author p{ float: left; }
+		.recipe-author .recipe-celeb-name{
+			background: url("../images/chef-celeb-icon.png") left center no-repeat;
+			color: #ff7b0a; padding-left: 25px;
+			display: block;
+			font-size: 14px; line-height: 26px;
+			}
+		.recipe-author .recipe-name{
+			background: url("../images/chef-icon.png") left center no-repeat;
+			color: #666666; padding-left: 25px;
+			display: block;
+			font-size: 14px; line-height: 26px;
+			}
+				.recipe-author .recipe-name a{ text-decoration: none; color: #666666; font-size: 14px; line-height: 26px; }
+				.recipe-author .recipe-name a:hover{ text-decoration: underline; }
+				
+				.recipe-author .recipe-celeb-name a{ text-decoration: none; color: #ff7b0a; font-size: 14px; line-height: 26px; }
+				.recipe-author .recipe-celeb-name a:hover{ text-decoration: underline; }
+				
+		.recipe-author .recipe-view{
+			background: url("../images/view-icon-black.png") left center no-repeat;
+			color: #666; padding-left: 25px;
+			display: block; float: left;
+			font-size: 14px; line-height: 26px; //margin-right: 15px;
+			min-width: 100px;
+			}
+		.recipe-author .recipe-date{
+			background: url("../images/calendar-icon-black.png") left center no-repeat;
+			color: #666; padding-left: 25px;
+			display: block; float: left;
+			font-size: 14px; line-height: 26px;
+			min-width: 100px;
+			}
+			
+			
+		.recommend-celeb h2{ 
+			color: #008041;
+			font-family: "supermarket";
+			font-size: 30px;
+			line-height: 50px;
+			font-weight: normal;
+			text-align: left; 
+			}
+		.recommend-celeb .wr-celeb{ padding-top: 57px;}
+		.recommend-celeb figure img{ float: left; margin-right: 10px; }
+		
+.varity-icon{ background: url("../images/icons/varity-icon.png") top left no-repeat; position: relative; z-index: 50; bottom: -16px;  padding-left: 80px; margin-left: 25px; height: 66px; }		
+.celeb-icon{ background: url("../images/icons/celeb-icon.png") top left no-repeat; position: relative; z-index: 50; bottom: -18px; height: 65px; padding-left: 80px; margin-left: 25px;}
+.recipe-icon{ background: url("../images/icons/recipe-icon.png") top left no-repeat; position: relative; z-index: 50; bottom: 55px; height: 65px;padding-left: 80px; }
+.trend-icon{ background: url("../images/icons/trend-icon.png") top left no-repeat; position: relative; z-index: 50; bottom: -20px; height: 75px; padding-left: 85px; }
+.top-author-icon{ background: url("../images/icons/top-author-icon.png") top left no-repeat; position: relative; z-index: 50; bottom: -20px; margin-right: 15px; height: 75px; padding-left: 85px; }	
+		
+.content-section-2{
+		background: #FFFFFF  url("../images/bg-section-2.jpg") center left no-repeat;
+		height: 650px; padding-left: 345px;
+		width: 855px; margin: 0 auto;
+	}
+		.content-section-2 h2{
+				font-family: "supermarket";
+				font-size: 30px;
+				line-height: 70px;
+				font-weight: normal;
+				text-align: left;
+				top: -32px;
+			}
+			.content-section-2 h2.green{ color: #009ac6; }
+			.content-section-2 h2.org{ color: #009ac6; }
+					.content-section-2 h2 span{ color: #808183; display: block; font-size: 18px; line-height: 10px; font-family: supermarket; }
+			
+			
+		.content-section-2 .box-l{ float: left;  width: 445px; /*margin-left:25px;*/ margin-top: -23px;}
+		.content-section-2 .box-r{ float: right;  width: 395px; margin-left: 15px; margin-top: -25px;}
+		
+
+
+.trend-zone{
+	margin-top: -15px;
+	}
+		.trend-zone ul{ list-style: none; }
+				.trend-zone ul li article{ height: 575px; margin-bottom: 15px; }
+					.trend-zone ul li article figure{ margin-bottom: 15px; }
+					.trend-zone ul li article h3{ font-size: 25px; line-height: 25px; font-family: "supermarket"; color: #7c4d25; margin-bottom: 15px;}
+						.trend-zone ul li article h3 a{ text-decoration: none; font-size: 25px; line-height: 25px; font-family: "supermarket"; color: #7c4d25; font-weight: normal; }
+						.trend-zone ul li article p{ color: #666; font-size: 14px; line-height: 20px; text-align: justify; padding-right: 20px; }
+						.trend-zone ul li article p a.read-more{ color: #ffb100; font-size: 14px; line-height: 20px; text-decoration: none; }
+						
+		
+		
+.register-member{
+	margin-bottom: 25px;
+	}
+.top-member{ width: 380px; height: 250px; margin-bottom: 30px; background: url("../images/mascot.png") bottom left no-repeat; }
+#regis-button{
+			background-color:#7fa03e;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family: "supermarket";
+			font-size:22px;
+			padding:16px 50px;
+			text-decoration:none;
+			margin-right: 10px;
+			text-align: center;
+			border-radius: 5px;
+	}
+#login-button{ 
+			background-color:#ccbc55;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family: "supermarket";
+			font-size:22px;
+			padding:16px 25px;
+			text-align: center;
+			text-decoration:none;
+			border-radius: 5px;
+	}
+.recommend-member-icon{ background: url("../images/icons/recommend-member-icon.png") top left no-repeat; height: 59px; padding-left: 68px; }			
+		
+		
+		.recommend-member h2{ 
+			color: #f48335;
+			font-family: "supermarket";
+			font-size: 30px;
+			line-height: 50px;
+			font-weight: normal;
+			text-align: left; 
+			}
+		.recommend-member .wr-member{ margin-top: 15px; }
+		.recommend-member figure img{ float: left; margin-right: 10px; margin-bottom: 10px; }
+		
+		
+		
+.content-section-3{
+		background: url("../images/bg-bottom.jpg") top center no-repeat;
+		width: 1170px; height: 595px;
+		padding: 40px 15px 0 15px;
+		margin: 0 auto;
+	}
+	
+	
+	
+.content-section-3 .box-l{ float: left;  width: 730px;  margin-right: 15px; }
+.content-section-3 .box-r{ float: right;  width: 420px; }
+	
+.tiptechnique ul{ list-style: none; }
+				.tiptechnique ul li article{ height: 255px; margin-bottom: 25px; background-color: #f4f9f5; }
+					.tiptechnique ul li article figure{ float: left; margin-right: 15px; padding: 9px; background-color: #FFF; box-shadow: 0px 0px 9px #cccccc; }
+					.tiptechnique ul li article h3{ font-size: 25px; line-height: 25px; font-family: "supermarket"; color: #7c4d25; margin-bottom: 15px; padding-top: 15px; padding-right: 15px;}
+						.tiptechnique ul li article h3 a{ text-decoration: none; font-size: 25px; line-height: 25px; font-family: "supermarket"; color: #7c4d25; }
+						.tiptechnique ul li article p{ color: #666; font-size: 14px; line-height: 20px; text-align: justify; padding: 0 15px 0px 0; }
+						.tiptechnique ul li article p a.read-more{ color: #ffb100; font-size: 14px; line-height: 20px; text-decoration: none; }
+
+
+.smile{
+    width: 120px;
+    height: 24px;
+    background: url(../images/smile.png) 0 0 repeat-x;
+    position: relative;
+	float:left;
+	display:inline;
+}
+
+.smile .smileRating{
+    height: 24px;
+    background: url(../images/smile.png) 0 -24px repeat-x;
+}
+
+.smile input{
+    display: none;
+}
+
+.smile label{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 120px;
+    cursor: pointer;
+}
+
+
+.level{
+float: left;
+list-style: none;
+padding-left: 10px;
+}
+
+
+.filllocation{
+	margin-top:-10px;
+	 background-color : #e8e8e7; 
+    border: 0px; 
+    height:20px; 
+    width: 310px; 
+    outline:0; 
+	padding:5px;
+	color:#724f34;
+	font-size:14px;
+}

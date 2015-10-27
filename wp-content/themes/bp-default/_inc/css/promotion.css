@@ -1,0 +1,148 @@
+a:hover img {
+	filter: Alpha(opacity=60);
+	opacity: 0.6; 
+}
+.content-promotion{
+	background-image:url(../images/bg-promotion.png);
+	background-color: #f1f1f1;
+	background-repeat: no-repeat;
+	width: 1200px;
+	min-height: 200px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.content-box{
+	background-color:#ffffff;
+	width:1020px;
+	/*min-height: 200px;*/
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.title-promotion{
+	padding-top: 40px;
+
+}
+.promotion{
+	margin-top: 40px;
+	margin-left: 15px;
+	color:#666666;
+	font-family:supermarket;
+	margin-bottom: 20px;
+	font-size: 19px;
+}
+.box-left{
+	float:left;
+	width:745px;
+	margin-right:10px;
+}
+.box-right{
+	float:right;
+	width:235px;
+}
+.box-image{
+	border:2px solid #d3d3d3;
+}
+.discount{ 
+	width:107px;
+	height:30px;
+	position:absolute;
+	margin-top: 20px;
+}
+.percent{
+	background-image:url('../images/percent-discount.png');
+	width:65px;
+	height:71px;
+	position:absolute;
+	margin-left: 160px;
+}
+.text-percent{
+	padding-top: 25px;
+	font-family: tahoma;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+}
+.bg-promotion-title{
+	position: absolute;
+	margin-top: -52px;
+	background-image:url('../images/bg-pro-title.png');
+	width:204px;
+	height:43px;
+	padding: 10px 20px 0 10px;
+}
+.title-promotion-font{
+	font-size: 14px;
+	color: #FFC924;
+	font-family: tahoma;
+
+}
+.detail-promotion-font{
+	font-size:14px; color:#ffffff;
+	font-family: tahoma;
+}
+.bg-popular{
+	background-image:url('../images/bg-prmotion-popular.png');
+	width:207px;
+	height:429px;
+	padding-top: 130px;
+	padding-left: 30px;
+}
+
+/*----------------------------Promotion Light Box Page---------------------------------------*/
+.bg{
+	background-image:url('../images/bg-lightbox.jpg');
+	background-repeat:no-repeat;
+	margin:0;
+}
+.head-pro-lightbox{
+	background-color:#9e207e;
+	width:740px;
+	height:120px;
+	float:left;
+}
+
+.circle {
+	background-image:url('../images/circle.png');
+	background-repeat:no-repeat;
+	height: 165px;
+	width: 163px;
+	position: absolute;
+	margin: 30px 0 0 30px;
+	font-family:supermarket;
+	color:#ffffff;
+}
+.title-circle{
+	text-align:center; padding-top: 15px;
+}
+.percent-lightbox{
+	background-image:url('../images/percent-discount2.png');
+	width:75px;
+	height:113px;
+	position:absolute;
+	margin-left: 148px;
+}
+.line-lightbox{
+	background-color:#ffde54;
+	height:5px;
+	width:740px;
+}
+.gencode{
+	background-image:url('../images/copy-code.png');
+	width: 280px;
+	height: 27px;
+	float: left;
+	margin-top: 45px;
+	padding-top: 11px;
+	padding-left: 20px;
+}
+.bg_circle{
+	background-image:url('../images/bg-circle.png');
+	width:248px;
+	height:271px;
+	margin-left: 490px;
+position: absolute;
+margin-top: -215px;
+}

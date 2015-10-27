@@ -1,0 +1,438 @@
+.content-by-meal-page{
+	/* //background: url("../images/bg-in.jpg") top center no-repeat; */
+	width: 1200px; margin: 0 auto;
+	}
+.my-location-page{height: 45px;}
+
+.celeb-icon{ background: url("../images/recipes/celeb-icon.png") top left no-repeat; position: relative; z-index: 50; height: 60px;
+padding: 0 0 28px 82px; top: 5px; }		
+.celeb-icon4{ background: url("../images/icons/celeb-icon4.png") top left no-repeat; position: relative; z-index: 50; height: 60px;
+padding: 0 0 28px 82px; top: 5px; }		
+.celeb-icon5{ background: url("../images/icons/varity-icon-2.png") top left no-repeat; position: relative; z-index: 50; height: 60px;
+padding: 0 0 34px 82px; top: 5px; }
+
+.content-celeb{
+	background-color: #84bd3e;
+	padding: 0px;
+	width: 1200px;
+	margin: 0 auto;
+}
+		.content-celeb h2{
+				color: #FFFFFF;
+				font-family: "supermarket";
+				font-size: 30px;
+				line-height: 50px;
+				font-weight: normal;
+				text-align: left;
+				width: 1035px;
+				margin: 0 auto;
+				height: 50px;
+		}
+			
+.wr-celeb{
+	width: 1040px;
+	margin: 0 auto -16px auto;
+	background: #ffffff;
+	padding: 50px 80px 100px 80px;
+}
+.latest-celeb{
+	border-bottom : 2px dotted #c8cacc; padding-bottom: 30px; margin-bottom: 30px;
+}
+.latest-celeb figure{ float: left; overflow: hidden; width: 335px; height: 335px; margin-right: 10px;}
+.celeb-detail{ float: left; width: 350px;}
+.all-celeb{ width: 960px; margin: 0 auto;}
+
+.celeb-author{ border-bottom : 1px dotted #c8cacc; padding: 0 0 5px 0; }	
+.celeb-name a{
+	font-size: 24px;
+	color: #7b4d23;
+	font-family: supermarket;
+	text-decoration: none;
+	display: block;
+	margin: 5px;
+}
+.celeb-view{ 
+	font-size: 12px;
+	color: #000;
+	display: block;
+	background: url("../images/recipes/icon-review.png") top left no-repeat;
+	padding-left: 25px;
+	float: left;
+	margin: 5px 20px 5px 5px;
+}
+.celeb-date{
+	font-size: 12px;
+	color: #000;
+	display: block;
+	background: url("../images/recipes/icon-calendar.png") top left no-repeat;
+	padding-left: 25px;
+	float: left;
+	margin: 5px;
+}
+.celeb-info-lazy{ 
+	margin: 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.celeb-info {
+ margin-top: 10px;
+}
+.celeb-info li{ 
+	list-style: none;
+	display: block;}
+.celeb-info li label, .celeb-info-lazy label {
+	margin-right: 10px;
+}
+.celeb-info li span, .celeb-info-lazy span {
+	font-size: 14px;
+	line-height: 20px;
+	color: #ed791f;
+	width: 40%;
+	float: left;
+}
+.celeb-level{
+	background: url('../images/recipes/icon-level.png') top left no-repeat;
+	padding-left: 30px;
+	color: #333333;
+	display: block;
+	float: left; width: 45%;
+	font-size: 14px;
+	line-height: 24px;
+}
+.celeb-ingredient{
+	background: url('../images/recipes/icon-ingre.png') top left no-repeat;
+	padding-left: 30px;
+	color: #333333;
+	display: block;
+	float: left; width: 45%;
+	font-size: 14px;
+	line-height: 24px;
+}
+.celeb-meal{
+	background: url('../images/recipes/icon-meal.png') top left no-repeat;
+	padding-left: 30px;
+	color: #333333;
+	display: block;
+	float: left; width: 45%;
+	font-size: 14px;
+	line-height: 24px;
+}
+.celeb-excerpt { padding: 10px 0;}
+.celeb-excerpt h3, .celeb-excerpt h3 a{
+	font-size: 24px;
+	color: #7b4d23;
+	font-family: supermarket;
+	line-height: 30px; text-decoration: none;
+}
+.celeb-excerpt p{ font-size: 14px; color: #000; line-height: 18px;}
+.celeb-excerpt p a{ font-size: 14px; color: #ed791f; line-height: 18px; text-decoration: none;}
+/*--------------------------------------------------------------
+- Activity Card UI
+---------------------------------------------------------------*/
+.member-activities{ padding-top: 20px; }
+#grid li a{ text-decoration: none; }
+.member-activities a:hover img {
+	filter: Alpha(opacity=60);
+	opacity: 0.6; 
+}
+.content-promotion{
+	background-image:url(../images/bg-promotion.png);
+	background-color: #f1f1f1;
+	background-repeat: no-repeat;
+	width: 1200px;
+	min-height: 200px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	display:block;
+}
+.content-box{
+	background-color:#ffffff;
+	width:1020px;
+	/*min-height: 200px;*/
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.title-promotion{
+	padding-top: 40px;
+
+}
+.promotion{
+	margin-top: 40px;
+	margin-left: 15px;
+	color:#666666;
+	font-family:supermarket;
+	margin-bottom: 20px;
+	font-size: 19px;
+}
+.box-left{
+	float:left;
+	width:745px;
+	margin-right:10px;
+}
+.box-right{
+	float:right;
+	width:235px;
+}
+.box-image{
+	overflow: hidden;
+}
+.icon{
+	width:50px;
+	height:50px;
+	position:absolute;
+	margin-left: 180px;
+	margin-top: 5px;
+}
+.icon-bistro{
+	background: url('../images/profile/icon-bistro.png') top left no-repeat;
+}
+.icon-recipe{
+	background: url('../images/profile/icon-recipe.png') top left no-repeat;
+}
+.text-percent{
+	padding-top: 35px;
+	font-family: tahoma;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+}
+.bg-review-title{
+	position: absolute;
+	margin-top: -60px;
+	width:287px;
+	height:60px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.title-review-font{
+	font-size: 22px;
+	color: #7b4d23;
+	font-family: supermarket;
+}
+.title-recipe-font{
+	font-size: 22px;
+	line-height: 24px;
+	color: #000000;
+	font-family: supermarket;
+}
+
+.recipe-like, .recipe-comment{ display: block; float: left; margin-right: 10px; }
+.recipe-date{  display: block; float: right; }
+.recipe-level{ background: url('../images/profile/icon-level.png') top left no-repeat; padding-left: 25px; }
+.recipe-ingredient{ background: url('../images/profile/icon-ingredient.png') top left no-repeat; padding-left: 25px; }
+.recipe-meal{ background: url('../images/profile/icon-meal.png') top left no-repeat; padding-left: 25px; }
+
+
+.bg-popular{
+	background-image:url('../images/bg-prmotion-popular.png');
+	width:237px;
+	height:560px;
+	padding-top: 130px;
+	padding-left: 30px;
+	display:block;
+	background-repeat:no-repeat;
+}	
+
+/*--------------------------------------------------------------
+- single-celebcook
+---------------------------------------------------------------*/
+.top-recipe{ background: url("../images/recipes/top-celeb.jpg") top center no-repeat; height: 490px; width: 1200px; margin: 0 auto;  }
+.top-recipe h2{
+				color: #FFFFFF;
+				font-family: "supermarket";
+				font-size: 30px;
+				line-height: 50px;
+				font-weight: normal;
+				text-align: left;
+				width: 1035px;
+				margin: 0 auto;
+				height: 90px;
+		}
+		
+.content-recipe{
+	background: #fff url("../images/recipes/top-recipe-1.jpg") top center no-repeat; 
+	width: 1200px;
+	margin: 0 auto;
+	line-height: 20px;  font-size: 14px;
+	color: #333;
+}
+
+.col-left{ float: left; width: 315px; margin-right: 15px; }
+.col-right{ float: right; width: 870px; }
+
+.half-section{ width: 50%;}
+
+
+.author-img{ 
+	border: 5px solid #fff; background-color: #FFF; 
+	width: 280px; height: 280px; overflow: hidden;
+	padding:  10px;
+	margin: 20px 15px 30px 15px;
+}
+.other-recipes, .recommend-members, .more-recipes{ padding-bottom: 20px; }
+.other-recipes h2{ color: #3f8045; font-family: supermarket; text-align: center; position: relative; left: 27%; bottom: -20px; background-color: #fff; width: 150px; }
+.celeb-clip{ margin-top: -26px;}
+.more-recipes h2{ 
+					color: #409245; font-family: supermarket; text-align: center; position: relative; left: 25%; top: 0px; 
+					background: url("../images/recipes/top-rec-celeb.png") top left no-repeat; 
+					width: 165px;
+					height: 60px;
+					padding-top: 78px;
+				}
+.recommend-members h2{ color: #cc5a28; font-family: supermarket; text-align: center; margin-top: 30px;  margin-bottom: 30px; background: url("../images/recipes/top-r-menu.png") top left no-repeat; }
+
+.wr-recipe-1{ border: 1px #80a13f solid; padding: 5px; }
+.wr-recipe-2{ border: 5px #80a13f solid; padding: 5px; }
+.wr-recipe-3{ border: 1px #80a13f solid; padding: 10px; }
+
+.wr-recipe-4{ border: 1px #ffb655 solid; padding: 5px; margin-top: -110px; }
+.wr-recipe-5{ border: 5px #ffb655 solid; padding: 5px; }
+.wr-recipe-6{ border: 1px #ffb655 solid; padding: 100px 10px 10px 10px; }
+
+ul.related-recipes, ul.recipes-by-keyword, .recommend-members ul{ list-style: none; padding: 0 20px; margin: 0;}
+ul.related-recipes li, ul.recipes-by-keyword li{display: block; margin-bottom: 20px;}
+ul.related-recipes li figure, ul.recipes-by-keyword li figure{ float: left; margin-right: 10px; width: 80px; height: 80px;}
+
+ul.related-recipes li h3 a, ul.recipes-by-keyword li h3 a{ text-decoration: none; color: #d55e35; line-height: 16px; font-size: 14px; }
+ul.related-recipes li .recipe-author, ul.recipes-by-keyword li .recipe-author{ color: #333; font-size: 12px; line-height: 16px;}
+.recipe-author span{ display: block; color: #706f6f; }
+.recipe-author span a{ text-decoration: none; color: #706f6f; font-size: 12px; line-height: 16px; }
+
+.recommend-members ul li{ float: left; margin: 3px; }
+
+
+header.topic{ background: url("../images/rep-bg-h.jpg") bottom center repeat-x; width: 100%; height: 50px; position: relative; margin-top:20px;}
+header.topic-2{ width: 100%; height: 60px; position: relative; border-bottom: 10px solid #a69680;}
+.topic img, .topic-2 img{ float: left;}
+.topic h2, .topic-2 h2{ color: #d5512b; font-size: 30px; font-family: supermarket;}
+.topic h2{line-height: 30px;}
+.topic-2 h2{line-height: 80px;}
+.topic small, .topic-2 small{ 
+			color: #838383; font-size: 16px; line-height: 18px; font-family: supermarket; 
+			position: absolute; background-color: #FFF; bottom: 0px; left: 82px;
+			height: 18px; line-height: 18px; padding-right:10px; 
+			}
+	
+.entry ul{ list-style: none; }	
+
+.recipe-info{
+			list-style: none;
+			width: 39%; float: left;
+			}
+		.recipe-info li{
+			color: #7c4d25;
+			font-family: "supermarket";
+			font-size: 18px;
+			line-height: 18px;
+			height: 20px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			}
+				.recipe-info li label{ width: 125px; height: 24px; line-height: 24px; vertical-align: middle; display: block; padding-left: 35px; float: left; font-family: supermarket;font-size: 18px; }
+					.recipe-info li label.recipe-level{ background: url("../images/level-icon.png") left center no-repeat; }
+					.recipe-info li label.recipe-ingredient{ background: url("../images/ingredient-icon.png") left center no-repeat; }
+					.recipe-info li label.recipe-meal{ background: url("../images/meal-icon.png") left center no-repeat; }
+					
+					.recipe-info li label.recipe-national{ background: url("../images/national-icon.png") left center no-repeat; }
+					.recipe-info li label.recipe-time{ background: url("../images/time-icon-1.png") left center no-repeat; }
+					.recipe-info li label.recipe-type{ background: url("../images/type-icon.png") left center no-repeat; }
+				.recipe-info li span{ display: block; width: 160px; float: left; height: 24px; line-height: 24px; font-family: supermarket; font-size: 18px; color: #ee7a20; }
+
+.smile-celeb{
+	height: 24px;
+	background: url(../images/smile.png) 0 0 repeat-x;
+	position: relative;
+	float: left;
+	display: inline;
+}
+
+.smile-celeb input {
+display: none;
+}
+.level{
+float: left;
+list-style: none;
+padding-left: 10px;
+}				
+
+.author-detail h3{
+	background: url("../images/recipes/banner-sticky.png") left center no-repeat; 
+	width: 316px; height: 87px; text-align: center; padding-top: 50px; margin-top: 25px; margin-bottom: 25px;
+}
+.author-detail h3 a{ text-align: center; color: #d25327; text-decoration: none;}
+.author-bio{ margin: 15px; font-size:14px; line-height: 18px; border-bottom: dotted 2px #ababab; padding-bottom: 10px; }
+
+.social-box{ width: 308px; height: 150px; margin-bottom: 15px; }
+.celeb-recipe h2{ background: url("../images/recipes/t-celeb-1.jpg") top center no-repeat; padding-top: 10px; margin-bottom: 15px; text-align: center; height: 45px; line-height: 45px;  font-family: supermarket; color: #409245;  }
+.celeb-recipe { background: url("../images/recipes/b-celeb-1.jpg") bottom center no-repeat;}
+
+.left-in{ float: left; width: 545px; margin-right: 10px; font-size:14px; line-height: 18px;  }
+.right-in{ float: right; width: 300px; } 
+
+.recipe-direction{ float: left; width: 890px; margin-right: 10px; }
+.other-recipes{ float: left; width: 300px; }
+.recipe-direction ul li{ list-style: none; margin-bottom: 10px;  }
+.recipe-direction .direction{ float:left; width: 410px; margin-right: 10px; font-size: 14px; line-height: 18px; }
+.recipe-direction figure{ float: right; }
+
+.recipe-img{ margin: 10px 0; }
+.recipe-img li{ float: left; margin-right: 10px; }
+/*--------------------------------------------------------------
+- celeb
+---------------------------------------------------------------*/
+.celeb-img{ float:left; width: 333px; margin: 0 8px; }
+.celeb-img h2{ text-align: center; width: 333px; background: url("../images/recipes/name-celeb.png") top center no-repeat; height: 151px; margin-top: -20px; color: #7b4d23; padding-top: 60px; }
+
+.top-quickeasy{ float: left; width: 678px; }
+.box-t-celeb{ float: left; margin: 5px 5px 25px 5px; width: 329px; }
+
+.celeb-lst{ list-style-position: inside; font-size: 14px; line-height: 20px;}
+
+.ingre1, .ingre2, .ingre3{ display: inline-block; vertical-align: top; }
+.ingre1{ width: 160px; }
+.ingre2{ width: 40px;}
+.ingre3{ width: 50px;}
+/*
+.box-t-celeb{ float: left; margin: 5px 5px 25px 5px; width: 329px; position: relative; }
+.celeb-img{ float:left; width: 333px; margin: 0 8px; }
+.celeb-img h2{ text-align: center; width: 333px; background: url("../images/recipes/name-celeb.png") top center no-repeat; height: 151px; margin-top: -20px; color: #7b4d23; padding-top: 60px; }
+
+.latest-celebs{ width: 1040px; margin: 0 auto 50px auto; padding-bottom: 50px; }
+.latest-celebs .column{ float:left; width: 686px;}
+.column .celeb-info{ margin: 10px;}
+.celeb-more{ 
+	background: url("../images/recipes/more-celeb.png") right center no-repeat;
+	text-decoration: none; color: #a6a8ab; font-family: supermarket; font-size: 20px; 
+	display: block; background-color: #e6e7e8; padding: 10px 35px 10px 10px; text-align: right; 
+}*/
+
+.smile{
+    width: 120px;
+    height: 24px;
+    background: url(../images/smile.png) 0 0 repeat-x;
+    position: relative;
+	float:left;
+	display:inline;
+}
+
+.smile .smileRating{
+    height: 24px;
+    background: url(../images/smile.png) 0 -24px repeat-x;
+}
+
+.smile input{
+    display: none;
+}
+
+.smile label{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 120px;
+    cursor: pointer;
+}*/

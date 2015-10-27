@@ -1,0 +1,372 @@
+.outsideHome{
+	margin:0 auto;
+	width:1200px;
+	background-color:white;
+}
+.iconPos{
+	float:left;
+	width:7%;
+	height:60px;
+	position:relative;
+}
+.menuTitle{
+	line-height:80px;
+	font-family:supermarket;
+	font-size:28px;
+	height:100%;
+	color:#FFFFFF;
+	position:relative;
+	width:81%;
+	float:left
+}
+.specialTitle{
+	width:100%;
+	height:60px;
+	background-color:#ef8b1e;
+	position:relative;
+}
+.hitTitle{
+	width:100%;
+	height:60px;
+	background-color:#ffb829;
+	position:relative;
+}
+.varietyTitle{
+	width:100%;
+	height:60px;
+	background-color:#a1d353;
+	position:relative;
+}
+.reviewTitle{
+	width:100%;
+	height:60px;
+	background-color:#4faf56;
+	position:relative;
+}
+.specialZone,.hitZone,.varietyZone,.reviewZone{
+	position:relative;
+	margin-top:25px;
+}
+.specialContent,.hitContent,.varietyContent,.reviewContent{
+	position:relative;
+	width:100%;
+}
+.imgIcon{
+	position:absolute;
+	margin-top:15px;
+	margin-left:15px;
+	z-index:2;
+}
+.imgBg{
+	position:absolute;
+	width:100%;
+	z-index:0;
+	margin-top:-31px;
+	background-color:white;
+}
+.specialSelected{
+	position:relative;
+	width:82%;
+	margin:0 auto;
+	margin-top:30px;
+	background-color:#FFFFFF;
+	z-index:2;
+	padding:30px;
+	box-shadow: 1px 1px 1px #cecece;
+}
+.specialName{
+	height:70px;
+	font-family:supermarket;
+	font-size:28px;
+	color:#49700b;
+	line-height:70px;
+	text-align:center;
+}
+.specialDetail{
+	font-family:tahoma;
+	font-size:16px;
+	line-height:24px;
+	color:#000000;
+}
+.readmore,.readmore a,.readmore a:link,.readmore a:visited,.readmore a:hover{
+	color:#ef8c3e;
+	font-size:16px;
+	text-decoration:none;
+	display:inline;
+}
+.specialZone{
+	height:780px;
+}
+.viewAll{
+	width:11%;
+	float:left;
+	font-size:15px;
+	line-height:80px;
+	color:#FFFFFF !important;
+	text-decoration:none;
+}
+.viewAll a,.viewAll a:link,.viewAll a:visited,.viewAll a:hover{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.hitBox{
+	float:left;
+	width:50%;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+.hitImg{
+	width:51%;
+	position:relative;
+	float:left;
+}
+.hitDetail{
+	width:48%;
+	float:left;
+	padding-top:50px;
+}
+.imgCircle{
+	width: 255px;
+	height: 255px;
+	border-radius: 150px;
+	border:5px solid #ffb100;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.iconType{
+	z-index:2;
+	position:absolute;
+	margin-top:175px;
+	margin-left:210px;
+}
+.bistroTitle{
+	font-family:supermarket;
+	font-size:24px;
+	color:#ff421d;
+	line-height:24px;
+}
+.bistroTitle a,.bistroTitle a:link,.bistroTitle a:visited,.bistroTitle a:hover{
+	color:#ff421d;
+	text-decoration:none;
+}
+.bistroExcerp,.bistroMap,.bistroHilight{
+	font-size:14px;
+	color:#000000;
+	line-height:22px;
+	font-family:tahoma;
+}
+.bistroReview{
+	font-size:12px;
+	color:#009cc8;
+	line-height:24px;
+	font-family:tahoma;
+}
+.varietyContent{
+	width:97.33333333333334%; /* 1168 / 1200 */
+	margin:0 auto;
+	background-color:yellow;
+}
+.vbox1{
+	width:32.70547945205479%; /* 382 / 1168 */
+	float:left;
+	position:relative;
+}
+.vbox2{
+	width:67.2945205479452%; /* 786 / 1168 */
+	float:left;
+}
+.vbox{
+	margin-left:12px;
+	margin-bottom:10px;
+	width:48.473282442748086%; /* 381 / 786 */
+	float:left;
+	position:relative;
+	
+}
+.description{  
+    position:absolute;
+    bottom:0px;
+    left:0px;  
+    width:100%;   
+    background:rgba(255,255,255,0.8);
+    font-family: tahoma;  
+    font-size:15px;  
+    color:#000000;  
+}  
+.description_content{  
+    padding:10px;  
+    margin:0px;  
+}
+.vTitle{
+	font-family:supermarket;
+	line-height:24px;
+	font-size:24px;
+	color:#e74036;
+	width:100%;
+}
+.vTitle a,.vTitle a:link,.vTitle a:visited,.vTitle a:hover{
+	text-decoration:none;
+	color:#e74036;
+}
+.revLeft{
+	float:left;
+	width:30%; /* 364 / 1200 */
+	padding:17px;
+}
+.revRight{
+	float:left;
+	width:67.1%; /* 808 / 1200 */
+	margin-top:19px;
+}
+
+.review{
+	border:1px solid #a1d353;
+	padding:17px;
+}
+.reviewBoxLatest{
+	padding-right:16px;
+	width:101%; 
+	float:left;
+	margin-bottom:30px;
+}
+.reviewLatest{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border:10px solid #a1d353;
+	border-top:20px solid #a1d353;
+	padding:10px;
+}
+.reviewAvatar{
+	width:19.877675840978593%; /* 65 / 327 */
+	height:65px;
+	float:left;
+}
+.reviewAuthor{
+	width:76%;
+	color:#e74036;
+	font-family:tahoma;
+	font-size:14px;
+	float:left;
+	padding-left:10px;
+}
+.rating{
+	width:76%; /* 262 / 327 */
+	padding-left:10px;
+	float:left;
+	
+}
+.reviewBistroTitle{
+	width:100%;
+	font-family:supermarket;
+	font-size:22px;
+	color:#ff7b0a;
+	line-height:24px;
+	padding-top:5px;
+}
+.reviewBistroTitle a,.reviewBistroTitle a:link,.reviewBistroTitle a:visited,.reviewBistroTitle a:hover{
+	text-decoration:none;
+	color:#ff7b0a;
+}
+.reviewBistroExcerp{
+	margin-top:5px;
+	font-family:supermarket;
+	font-size:20px;
+	color:#000000;
+	line-height:20px;
+}
+.reviewBistroDetail{
+	margin-top:15px;
+	font-family:tahoma;
+	font-size:14px;
+	color:#000000;
+	line-height:20px;
+}
+.reviewImg{
+	margin-top:15px;
+}
+.reviewLike{
+	  margin-top: 32px;
+  position: absolute;
+}
+.reviewOtherImg{
+	/*width:55%;
+	float:left;*/
+}
+.reviewLikeZone{
+	height:50px;
+	width:100%;
+	margin-top:15px;
+}
+.bestMember{
+	position:relative;
+	width:100%;
+	margin-top:15px;
+}
+
+.member{
+	
+	text-align:center;
+	width:25%;
+	float:left;
+	margin-top:-40px;
+}
+.memberTitle{
+	width:75%;
+	float:left;
+	line-height:60px;
+	font-family:supermarket;
+	font-size:24px;
+	color:#f58536;
+	margin-top:-45px;
+}
+.memberAll{
+	margin-top:50px;
+	border:1px solid #F00;
+	height:170px;
+	border-spacing: 10px 50px;
+}
+.memberPic{
+	margin-left:13px;
+	margin-top:10px;
+	float:left;
+}
+.reviewBox{
+	
+	width:100%; /* 359 / 808 */
+	float:left;
+	margin-bottom:20px;
+}
+.grid {
+	
+	list-style: none;
+}
+
+.grid li {
+	width: 359px !important;
+	padding-left:27px !important;
+	padding-right:16px !important;
+	opacity: 0;
+}
+.grid li a, .grid li img {
+outline: none;
+border: none;
+display:inline-block !important;
+max-width: 100%;
+}
+
+.stars{
+	float:left;
+	margin-top:10px;
+    width: 120px;
+    height: 24px;
+	background: url(../images/stars2.png) 0 0 repeat-x;
+    position: relative;
+	margin:0 auto;
+}
+.stars input{
+    display: none;
+}
+.rate{
+    height: 24px;
+    background: url(../images/stars2.png) 0 -24px repeat-x;
+}
